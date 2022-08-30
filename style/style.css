@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+
+/* --------NAVBAR-------- */
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+        justify-content: flex-end;
+    }
+}
+
+.backGround {
+    background-color: #000;
+}
+
+.paginaConteudo {
+    margin-top: 1%;
+}
+
+.bg-dark {
+    background-color: #000 !important;
+}
+
+.navbar-brand {
+    font-family: 'raleway', sans-serif;
+    font-size: 1.5rem;
+}
+
+.navbar {
+    padding: 2%;
+    font-family: 'raleway', sans-serif;
+    font-size: 1.3rem;
+}
+
+
+/* ----------MAIN---------- */
+#apresentacao,
+.quemSomos {
+    color: #fff;
+    text-align: center;
+}
+
+#apresentacao h1 {
+    line-height: 1.55em;
+    font-size: 4rem;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+#apresentacao p,
+.quemSomos p {
+    font-family: 'raleway', sans-serif;
+}
+
+.titulo {
+    font-size: 1.5rem;
+}
+
+.descricaoTitulo {
+    font-size: 1.1rem;
+}
+
+img {
+    padding: 1px !important;
+}
+
+/* ----Quem Somos---- */
+
+.quemSmsBackground {
+    background-image: url(../img/QuemSomosWall.jpeg);
+}
+
+.quemSomos .titulo {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 4rem;
+    text-shadow: 3px 3px 5px #000;
+}
+
+.quemSomos .subtitulo {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2.5rem;
+    text-shadow: 3px 3px 5px #000;
+}
+
+.quemSomos .descricao {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2rem;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+/* ----------- */
+
+.carrossel {
+    position: relative;
+}
+
+.posicao {
+    position: absolute;
+    top: 186px;
+    left: 64px;
+    width: 90%;
+}
+
+/* Média queries texto Position:absolute do carrossel */
+@media (max-width: 1166px) {
+
+    .posicao {
+        top: 73px;
+        left: 64px;
+        width: 90%;
+    }
+
+    .quemSomos .titulo {
+        font-size: 3rem;
+    }
+
+    .quemSomos .subtitulo {
+        font-size: 2.2rem;
+    }
+
+    .quemSomos .descricao {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 991px) {
+
+    .posicao {
+        top: 48px;
+        left: 51px;
+        width: 90%;
+    }
+
+    .quemSomos .titulo {
+        font-size: 2rem;
+    }
+
+    .quemSomos .subtitulo {
+        font-size: 1.8rem;
+    }
+
+    .quemSomos .descricao {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .posicao {
+        top: 48px;
+        left: 26px;
+        width: 90%;
+    }
+
+    .carousel-item img {
+        height: 400px;
+    }
+}
+
+@media (max-width: 412px) {
+
+    .posicao {
+        top: 15px;
+        left: 26px;
+        width: 90%;
+    }
+}
+
+
+
+
+
+.sectionBG {
+    background-color: #191919;
+    margin-bottom: 1%;
+}
+
+.sectionProdutos {
+    box-shadow: none;
+}
+
+
+.carrossel {
+    padding: 0;
+}
+
+.sectionProdutos {
+    background-color: #000;
+}
+
+.sectionProdutos .row {
+    background-color: #191919;
+    margin-top: 40px;
+}
+
+/* Reservas */
+
+.formularioReservas {
+    border: 3px solid yellowgreen;
+}
+
+.formularioReservas .row {
+    justify-content: center;
+    padding: 2%;
+}
+
+
+
+/* ------------- */
+
+
+
+/* -----produtos pagina produtos------- */
+
+.sectionProdutos {
+    text-align: center;
+    color: #fff;
+
+}
+
+.cardComida {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* ------------formulario----------- */
+
+.nomeFormulario {
+    color: #fff;
+    text-align: center;
+}
+
+
+/* -----------visite-nos------- */
+
+.visite-nos {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.visite-nosImg{
+    height: 450px;
+}
+
+.sectionPadding {
+    margin-bottom: 0px;
+}
+
+#maps {
+    padding: 0;
+}
+
+.localizacao {
+    width: 100%;
+    height: 450px;
+}
+
+
+
+#footer {
+    color: #fff;
+    text-align: center;
+    padding: 3rem;
+}
+
+.fab img {
+    width: 40px;
+}

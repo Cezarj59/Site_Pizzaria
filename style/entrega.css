@@ -1,0 +1,63 @@
+
+.accordion-button{
+    font-family: 'raleway', sans-serif;
+    font-size: 1.2rem;
+}
+
+/* Acordeon */
+
+.accordion-button{
+    background: #fff;
+}
+
+.accordion-button:focus {
+    background-color: #000;
+    color: #fff;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #fff;
+    background-color: #000;
+}
+
+.lengendEntrega{
+    display: none;
+}
+.formulario{
+    margin: 0 auto;
+}
+
+form .row{
+    text-align: end;   
+}
+
+@media (max-width: 768px) {
+    form .row{
+        text-align: center;   
+    }
+}
+
+.control-label{
+    align-self: center;
+}
+
+form .row, div {
+    margin: 5px ;
+}
+
+.nossoEndereco{
+    justify-content: center;
+}
+
+.nossoEndereco div{
+    text-align: center; 
+}
+
+.conteudo{
+    padding: 1% 0 17% 0;
+}
+
+#footer{
+    background-color: #000;
+}
+

@@ -1,0 +1,113 @@
+html {
+    font-size: 16px;
+}
+
+.dropdown-menu{
+    border: #AA1229 2px solid;
+    border-radius: 5px;
+}
+.dropdown-menu li{
+    font-size: medium;
+}
+
+.bntCardapio{
+    background: #fefefe;
+    color: #000!important;
+    border-radius: 5px;
+}
+
+#cardapio {
+    margin-top: 8%;
+    padding: 1px;
+}
+
+.menu {
+    text-align: center;
+    margin-top: 5%;
+    color: #fff;
+}
+
+.menu>h2 {
+    font-size: 2rem;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    margin: 2.5rem 0 2.5rem 0;
+    color: #000;
+    list-style: none;
+    background-color: #fff;
+    border: 1px solid #fff;
+    background: rgb(1, 141, 68);
+    background: linear-gradient(90deg, rgba(1, 141, 68, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(200, 42, 53, 1) 100%);
+}
+
+.cardMenu {
+    display: flex;
+    text-align: center;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0;
+}
+
+.produtos {
+    box-sizing: border-box;
+    width: 260px;
+    margin-top: 2%;
+}
+
+.produtos>img{
+    width: 252px;
+    padding: 1px;
+}
+
+.produtos section>h2{
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+}
+
+.btnPedido {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    padding: 5px;
+    width: 60%;
+    background: #c82a35;
+    color: #fefefe;
+    border: none;
+    border-radius: 5px;
+    transition: 1000ms;
+
+}
+
+.btnPedido:hover {
+    transform: scale(1.2);
+    background: #AA1229;
+}
+
+.produtos section {
+    line-height: 1.5;
+    margin-top: 25px;
+    margin-bottom: 18px;
+}
+
+section .nome {
+    font-size: 1.5rem;
+    font-family: 'Cormorant Garamond', serif;
+    margin-bottom: 15px;
+    border-bottom: 3px solid;
+    border-image: linear-gradient(90deg, #018d44 0%, #ffffff 47%, #c82a35 100%) 1;
+}
+
+.ingredientes {
+    font-family: 'raleway', sans-serif;
+    box-sizing: border-box;
+    height: 50px;
+}
+
+.bebidas{
+    margin-bottom: 5%;
+}
+
+#footer{
+    background: #000;
+    margin-top: 1px;
+}

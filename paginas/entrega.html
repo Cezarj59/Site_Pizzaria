@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrega</title>
+    <link rel="shortcut icon" href="../img/favicon.jpg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style/normalize.css">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/entrega.css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Pizzaria Nova Casa</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+
+
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                        <a class="nav-link" href="../paginas/sobre.html">Sobre</a>
+                        <a class="nav-link" href="../paginas/cardapio.html">Cardápio</a>
+                        <a class="nav-link" href="../index.html#reservas">Reservas</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container conteudo">
+
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Meu Pedidos
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                       Endereço para Entrega
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <form class="form-horizontal">
+                            <fieldset>
+                                <!-- Form Name -->
+                                <legend class="lengendEntrega">Endereço para entrega</legend>
+
+                                <!--Nome-->
+                                <div class="row">
+                                    <label class="col-md-4 control-label" for="inputNome">Nome</label>
+                                    <div class="col-md-4">
+                                        <input id="inputNome" name="inputNome" type="text"
+                                            placeholder="Digite o nome do recebedor" class="form-control input-md"
+                                            required="">
+
+                                    </div>
+                                </div>
+
+                                <!-- Text input-->
+                                <div class="row">
+                                    <label class="col-md-4 control-label" for="inputCep">CEP</label>
+                                    <div class="col-md-4">
+                                        <input id="inputCep" name="inputCep" type="text" placeholder="xxxxxxxxx-x"
+                                            class="form-control input-md" required="">
+
+                                    </div>
+                                </div>
+
+                                <!-- Text input-->
+                                <div class="row">
+                                    <label class="col-md-4 control-label" for="inputRua">Rua</label>
+                                    <div class="col-md-4">
+                                        <input id="inputRua" name="inputRua" type="text" placeholder="Nome da rua"
+                                            class="form-control input-md" required="">
+
+                                    </div>
+                                </div>
+
+                                <!-- Text input-->
+                                <div class="row">
+                                    <label class="col-md-4 control-label" for="inputNumero">Nº</label>
+                                    <div class="col-md-4">
+                                        <input id="inputNumero" name="inputNumero" type="text"
+                                            placeholder="Número da casa" class="form-control input-md" required="">
+
+                                    </div>
+                                </div>
+
+                                <!-- Textarea -->
+                                <div class="row">
+                                    <label class="col-md-4 control-label" for="text-Infor">Informação adicional</label>
+                                    <div class="col-md-4">
+                                        <textarea class="form-control" id="text-Infor" cols="3" rows="5"
+                                            name="text-Infor"></textarea>
+                                    </div>
+                                </div>
+
+                                <!-- Button -->
+                                <div class="row">
+                                    <label class="col-md-4 control-label" for="enviarPedido"></label>
+                                    <div class="col-md-4">
+                                        <button id="enviarPedido" name="enviarPedido" class="btn btn-success">Fazer
+                                            Pedido</button>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        5% de Desconto na retirada no Balcão
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <div id="maps" class="container">
+                            <article class="row nossoEndereco">
+                                <div class="col-lg-6">
+                                    <h2><span>Nosso Endereço.</span></h2>
+                                    <p><span>Rua Ângelo Strapasson Costa, 752.</span></p>
+                                    <p><span>Centro, Colombo-PR, 83414-230.</span></p>
+                                </div>
+                            </article>
+                            <div>
+                                <iframe class="localizacao" title="localizacao"
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3607.5083224465407!2d-49.226602984988666!3d-25.2871201838544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dcdd18170e4341%3A0x7b2f7a9a76ca7de5!2ssal%C3%A3o%20de%20festa%20nova%20casa!5e0!3m2!1spt-BR!2sbr!4v1650053170272!5m2!1spt-BR!2sbr"
+                                    style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer id="footer" class="bg-dark text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <!-- Section: Social media -->
+            <div class="mb-4">
+                <!-- Facebook -->
+                <a class="btn btn-outline-light btn-floating m-1" target="blank" href="https://www.facebook.com/pizzarianovacasa"
+                    role="button"> <div class="fab fa-facebook-f"><img src="../img/pngwing.com.png" alt="icone-facebook"></div></a>
+
+                <!-- Whatsapp -->
+                <a class="btn btn-outline-light btn-floating m-1" target="blank" href="https://wa.me/554136565931" role="button"> <div class="fab fa-whatsapp"><img src="../img/whatsapp.png" alt="icone-whatsapp"></div></a>
+
+                <!-- Instagram -->
+                <a class="btn btn-outline-light btn-floating m-1" target="blank" href="https://www.instagram.com/novacasapizzaria/"
+                    role="button"> <div class="fab fa-instagram"> <img src="../img/insta.png" alt="icone-instagran"></div></a>
+            </div>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2022 Pizzaria Nova Casa:
+            <a class="text-white" href="#"> Desenvolvido por ParaleloDev.</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
