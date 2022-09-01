@@ -12,6 +12,7 @@ Desenvolvimento de um site de uma pizzaria fictícia, com o intuito de simular a
 <p>- Navbar para a navegação entre as páginas.</p>
 <p>- Formulários para cadastro e agendamento de reservas.</p>
 <p>- Cards para os produtos na pagina cardápio.</p>
+<p>- Responsividade para dispositivos moveis.</p>
 
 <p>A aplicação consta com boas práticas de desenvolvimento com a utilização de tags semânticas</p>
 
