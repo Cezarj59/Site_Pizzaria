@@ -83,7 +83,9 @@ img {
     font-family: 'Cormorant Garamond', serif;
     font-size: 2rem;
     text-shadow: black 0.1em 0.1em 0.2em;
+    padding: 1rem;
 }
+
 
 /* ----------- */
 
@@ -140,6 +142,13 @@ img {
         font-size: 1.5rem;
     }
 }
+
+@media (max-width: 382px) {
+    .quemSomos .descricao {
+        font-size: 1.4rem;
+    }
+}
+
 
 @media (max-width: 767px) {
 
@@ -201,6 +210,18 @@ img {
     padding: 2%;
 }
 
+@media (max-width: 480px) {
+
+    .formularioReservas .row {
+        justify-content: center;
+        padding: 1%;
+    }
+    #pessoasSelect, #horaSelect,#dataInput,#reservaButton{
+        margin-top: 3px;
+    }
+
+    
+}
 
 
 /* ------------- */
