@@ -27,15 +27,15 @@ Desenvolvimento de um site de uma pizzaria fictícia, com o intuito de simular a
 
 <h2>Demonstração completa.</h2> Link: https://cezarj59.github.io/Site-Pizzaria/
 
-<h4>Técnologias Usadas.</h4>
+<h3>Técnologias e recursos utilizados.</h3>
 <ul>
-  <li>HTML5
+  <li><h4>HTML5</h4>
       <ul>
           <li>Formulários.</li>
           <li>Links.</li>   
           <li>Navegação.</li>
       </ul>
-  <li>CSS
+  <li><h4>CSS</h4>
        <ul>
           <li>Responsividade.</li>
           <li>Flex-Box.</li>
@@ -43,7 +43,7 @@ Desenvolvimento de um site de uma pizzaria fictícia, com o intuito de simular a
           <li>Estilização.</li>
       </ul>
   </li>
-  <li>BOOTSTRAP
+  <li><h4>BOOTSTRAP</h4>
       <ul>
           <li>Navbar.</li>
           <li>Carousel.</li>
