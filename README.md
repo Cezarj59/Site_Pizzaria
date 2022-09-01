@@ -14,7 +14,7 @@ Desenvolvimento de um site de uma pizzaria fictícia, com o intuito de simular a
 <p>- Cards para os produtos na pagina cardápio.</p>
 <p>- Responsividade para dispositivos moveis.</p>
 
-<p>A aplicação consta com boas práticas de desenvolvimento com a utilização de tags semânticas</p>
+<p>-A aplicação consta com boas práticas de desenvolvimento com a utilização de tags semânticas</p>
 
 <h4>Index demo.</h4>
 
