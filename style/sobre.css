@@ -1,6 +1,13 @@
-.textoSobre{
+.textoSobre {
     color: #fff;
     text-align: center;
     font-family: 'Cormorant Garamond', serif;
     font-size: 1.5rem;
+}
+
+@media (max-width: 480px) {
+
+    .carousel-img {
+        width: 390px;
+    }
 }
