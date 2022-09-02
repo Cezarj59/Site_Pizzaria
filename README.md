@@ -26,7 +26,7 @@ Desenvolvimento de um site de uma pizzaria fictícia, com o intuito de simular a
 
 
 
-<h2>Demonstração completa.</h2> Link: https://cezarj59.github.io/Site-Pizzaria/
+<h2>Demonstração completa.</h2> Link: https://cezarj59.github.io/Site_Pizzaria/
 
 <h3>Técnologias e recursos utilizados.</h3>
 <ul>
